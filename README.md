@@ -1,4 +1,4 @@
-# 🧩 Sorting Visualizer
+# 🧩 Sorting Algorithm Visualizer
 
 A web-based sorting visualizer built using **Python**, **HTML**, **CSS**, and **JavaScript**.  
 This project helps users understand how different sorting algorithms work through visual animations.
