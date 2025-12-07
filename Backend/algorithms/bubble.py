@@ -15,7 +15,13 @@ def bubble_sort(arr):
                 'array': data.copy(),
                 'comparing': [j, j + 1],
                 'swapped': [],
-                'explanation': f'Comparing {data[j]} and {data[j + 1]}'
+                'explanation': (
+                    f"We are comparing the elements at positions {j} and {j+1}, "
+                    f"which are {data[j]} and {data[j+1]}. "
+                    "If the left element is greater than the right element, we will swap them. "
+                    "This is how the largest elements 'bubble up' to the end of the array."
+                )
+
             })
             
             if data[j] > data[j + 1]:
@@ -25,7 +31,11 @@ def bubble_sort(arr):
                     'array': data.copy(),
                     'comparing': [],
                     'swapped': [j, j + 1],
-                    'explanation': f'Swapped {data[j]} and {data[j + 1]}'
+                    'explanation': (
+                        f"The element {data[j+1]} was greater than {data[j]}, "
+                        "so we swapped them. "
+                        "This helps move larger numbers toward the end of the list step by step."
+                    )
                 })
     
     # Final sorted array
